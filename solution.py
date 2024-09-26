@@ -3,10 +3,6 @@ from math import log
 
 args = sys.argv
 
-#https://www.digitalocean.com/community/tutorials/understanding-list-comprehensions-in-python-3 koristio za skracivanje listi
-#https://www.youtube.com/watch?v=wfcWRAxRVBA&ab_channel=CSDojo za klase i koristenje self
-#https://www.w3schools.com/python/ref_func_isinstance.asp za isinstance
-#https://www.geeksforgeeks.org/formatted-string-literals-f-strings-python/ za f string
 def CitajIzDatoteke(path):
     with open(path, 'r', encoding="utf-8") as file:
         return file.readlines()
